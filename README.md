@@ -7,7 +7,7 @@
 </strong></p>
 <p>📲 Talk to me about <strong>Coding</strong> and <strong>Fishing</strong> and we will be best friends
 </p>
-<p>📫 How to reach me <strong> <a href="mailto:mina.s.mikhael@gmail.com" target="_blank"
+<p>📫 How to reach me <strong> <a href="mailto:bavlesmy@gmail.com" target="_blank"
   > bavlesamy@gmail.com</a></strong>
 </p>
 
@@ -18,16 +18,16 @@
   ><img
     align="center"
     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-    alt="Mina-Mikhael"
+    alt=Bavely-Tawfik"
     height="45"
     width="45"
 /></a>
 &nbsp; &nbsp; &nbsp;
-<a href="mailto:mina.s.mikhael@gmail.com" target="_blank"
+<a href="mailto:bavlesamy@gmail.com" target="_blank"
   ><img
     align="center"
     src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg"
-    alt="Mina-Mikhael"
+    alt="Pavli-Tawfik"
     height="50"
     width="60"
 /></a>
@@ -173,7 +173,7 @@
 <p style="display: block">
   &nbsp;<img
     align="center"
-    src="https://github-readme-stats.vercel.app/api?username=mina-mikhael&show_icons=true&locale=en"
+    src="https://github-readme-stats.vercel.app/api?username=bavely&show_icons=true&locale=en"
     alt="chelseaceballos"
   />
 </p>
