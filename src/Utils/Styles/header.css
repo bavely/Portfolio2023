@@ -1,0 +1,170 @@
+.header{
+
+    height: 500px;
+    min-height: 500px; 
+    background-image: linear-gradient(to top, rgba(176, 176, 176, .28), rgba(176, 176, 176, .28)), url("../images/hero-bg.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+padding-top: 35px;
+}
+
+.myname-text{
+    text-decoration: none;
+    /* color: #383838; */
+    /* font-family:  "Gill Sans", sans-serif;; */
+    font-size: 35px;
+    margin-left: 8px;
+}
+
+.site-name-last{
+    color: #C1B283 !important;
+    padding: 15px 15px 15px 15px;
+    
+}
+.site-name-first{
+    color: #e7e2d1 !important;
+    background-color: rgba(77, 73, 73, 0.8) !important;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.menu-button{
+
+    display: none;
+
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+
+    background-color: transparent !important;
+    padding-top: 25px;
+    border: none;
+    width: 35%;
+    
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #383838;
+    /* font-family: "Gill Sans", sans-serif;; */
+    font-size: 16px;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    /* font-size: var(--bs-nav-link-font-size); */
+    font-weight: var(--bs-nav-link-font-weight);
+    /* color: var(--bs-nav-link-color); */
+    background: 0 0;
+    border: 0;
+    /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; */
+    transition: 0.3s;
+    align-self: center;
+    text-align: center;
+    
+    
+}
+
+.menu-link:hover{
+    color: #C1B283;
+}
+
+.Hello{
+    /* font-family: "Gill Sans", sans-serif;; */
+    font-size: 20px;  
+    font-weight: 100;
+}
+
+.greeting{
+    /* font-family: "Gill Sans", sans-serif;; */
+    font-size: 20px;
+
+    font-weight: 100;
+}
+
+
+.greeting-btn{
+    /* font-family: "Gill Sans", sans-serif;; */
+    font-size: 16px;
+    padding: 20px;
+    margin: 10px;
+    /* transform: skew(20deg); */
+    background-color: #ded1c1;
+    border: 1px solid #c1b283;
+    position: relative;
+    display:inline-block;
+    -webkit-transform: skew(-9deg);
+    -moz-transform: skew(-9deg); 
+    -o-transform: skew(-9deg); 
+    pointer-events: all;
+}
+
+
+.greeting-btn:hover{
+    background-color: #c1b283;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contactmeLink{
+    background-color: #383838;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #c1b283;
+    position: relative;
+    display:inline-block;
+    -webkit-transform: skew(-9deg);
+    -moz-transform: skew(-9deg); 
+    -o-transform: skew(-9deg); 
+    pointer-events: all;
+    text-align: justify;
+    min-width: fit-content;
+}
+
+.contactmeLink:hover{
+    background-color: #c1b283;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 780px) {
+    .myname-text{
+        font-size: 18px;
+        background-color: rgba(77, 73, 73, 0.8) !important;
+        padding: 15px 20px 15px 20px;
+    }
+    .site-name-last{
+        background-color: rgba(77, 73, 73, 0.8) !important;
+        padding: 15px 20px 15px 20px;
+    }
+
+    .greeting{
+        font-size: 16px;
+        align-self: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1322px ) and (min-width: 780px) {
+    .myname-text{
+        font-size: 28px;
+       
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .nav-menu{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+
+    .menu-link{
+        color: #e7e2d1;
+    }
+}
+    
+@media only screen and (max-width: 359px) {
+    .myname-text{
+        font-size: 16px;
+    }
+}

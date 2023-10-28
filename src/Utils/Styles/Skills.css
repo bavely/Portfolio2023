@@ -1,0 +1,64 @@
+.skills{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 61px 0px 61px 0px;
+    height: 600px;
+    min-height: 600px;
+    /* overflow-y: auto; */
+}
+
+.skills-header{
+    color: #C1B283;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    /* margin: 10px 0px 30px 0px; */
+}
+
+.skill-name{
+    
+        color: #646469a4;
+        text-align: left;
+        margin-bottom: 0 !important;
+    
+    
+    
+}
+
+.swiper {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .MuiLinearProgress-root{
+    border: 1px solid #646469a4 !important;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .skills{
+        padding: 61px 0px 61px 0px;
+        height: fit-content;
+    }
+  }
