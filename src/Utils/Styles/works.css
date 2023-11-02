@@ -85,6 +85,16 @@
     color: #61584d;
 }
 
+.technologies{
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
 
 @media only screen and (max-width: 425px) {
   .slidetitle {
