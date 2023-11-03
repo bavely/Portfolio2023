@@ -5,12 +5,6 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const sgMail = require('@sendgrid/mail')
-const accountSid = env.parsed.TWILIO_ACCOUNT_SID;
-const authToken = env.parsed.TWILIO_AUTH_TOKEN;
-const client = require('twilio')(accountSid, authToken);
-
-
-
 sgMail.setApiKey(env.parsed.SENDGRID_API_KEY)
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -43,23 +37,6 @@ app.post("/api/contactme", (req, res) => {
 
         })
 });
-
-app.post("/api/sms", (req, res) => {
-    client.messages
-    .create({
-        body: req.body.message,
-                from: env.parsed.TWILIO_NUMBER,
-        to: '+16266265854'
-    })
-    .then(message => {
-        res.json({ message: "success" });
-    })
-    .catch((error) => {
-        console.error(error)
-        res.json({ message: "fail" });
-
-    })
-})
 
 
 app.use((req, res, next) => {

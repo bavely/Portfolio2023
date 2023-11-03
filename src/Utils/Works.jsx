@@ -26,14 +26,14 @@ export const WorksObject =
     },
     {
         id: 3,
-        name: "Portfolio3",
-        img: require("../Utils/images/1TE01341.jpg"),
-        gitHub: "https://github.com/bavely",
-        live: "https://portfolio-bavely.netlify.app/",
+        name: "React Messenger",
+        img: require("./images/Login.png"),
+        gitHub: "https://github.com/bavely/React-Messenger",
+        live: "/pagenotfound",
         about: {
-            Images:[],
-            Text: "This is a portfolio website for my first react app.",
-            Tech: ["NodeJS","ExpressJS", "ReactJS", "MySQL", "Bootstrap", "Material UI", "Google APIs", "Google Maps API", "Mailgun", "Twilio", "Axios", "socket.io", "JWT"  ]
+            Images:[ require("./images/Login.png"), require("./images/chathistory.png"), require("./images/chat.png"), require("./images/profile.png")],
+            Text: "React messenger is a place holder name of a messaging application I am developing as a private project. It is still under planning and development. The messenger will allow users with the same interests to communicate , chat and create groups under different topics.",
+            Tech: ["NodeJS","ExpressJS", "React Native", "MongoDB","Mongoose","Bootstrap", "Google APIs", "Google Maps API", "Mailgun", "Twilio", "Axios", "socket.io", "JWT"  ]
         }
     }
     ]

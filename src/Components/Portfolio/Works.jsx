@@ -25,8 +25,6 @@ import Divider from "@mui/material/Divider";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 import Modal from "@mui/material/Modal";
-import IconButton from "@mui/material/IconButton";
-import CloseIcon from "@mui/icons-material/Close";
 import ImageViewer from "react-simple-image-viewer";
 const Works = () => {
   const [details, setDetails] = useState({});

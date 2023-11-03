@@ -5,8 +5,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
+import { useLocation } from 'react-router-dom'
 const Header = () => {
+  const location = useLocation();
   const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(true);
 
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
@@ -20,9 +23,17 @@ const Header = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
+useEffect(() => {
+  if (location.pathname === "/pagenotfound") {
+    
+    setActive(false);
+  }else {
+    setActive(true);
+  }
+}, [location]);
   return (
-    <div className="container-fluid ">
+    <>{active ? (
+      <div className="container-fluid ">
       <div className="row header">
         <div className="col-md-8 offset-md-2">
           <div className="row">
@@ -133,6 +144,8 @@ const Header = () => {
         </div>
       </div>
     </div>
+    ): <></>}</>
+
   );
 };
 
