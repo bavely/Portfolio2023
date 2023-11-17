@@ -4,8 +4,7 @@ const env =  require('dotenv').config();
 const path = require("path");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey(env.parsed.SENDGRID_API_KEY)
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
@@ -15,28 +14,14 @@ app.use(cors());
 
 
 app.post("/api/contactme", (req, res) => {
-    console.log("contact me");
-    console.log(req.body);
-    
-
-    const msg = {
-        to: 'bavlesamy90@hotmail.com', // Change to your recipient
-        from: 'bavlesamy@gmail.com', // Change to your verified sender
-        subject: req.body.email + " " + req.body.name + "from portfolio",
-        text: req.body.message,
-     
-      }
-      sgMail
-        .send(msg)
-        .then(() => {
-            res.json({ message: "success" });
-        })
-        .catch((error) => {
-            console.error(error)
-            res.json({ message: "fail" });
-
-        })
+    console.log(req.body)
+// 						"HTMLPart": `<b>From: ${req.body.email} <br/><b>Name: ${req.body.name}</b><br/><b>Message: ${req.body.message}</b>`
 });
+
+app.post("/api/sms", (req, res) => {
+
+    //     body: req.body.message,
+})
 
 
 app.use((req, res, next) => {

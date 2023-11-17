@@ -5,6 +5,7 @@ import Header from "./Components/Portfolio/Header";
 import "./App.css";
 import bootstrap from "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Pagenotfound from "./Pages/Pagenotfound";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Portfolio />} />
+        <Route path="/pagenotfound" element={<Pagenotfound />} />
       </Routes>
     </div>
   );
