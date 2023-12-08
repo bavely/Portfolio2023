@@ -34,7 +34,7 @@ const ContactInfo = () => {
   }
 
   const handleClickOpen = () => {
-    setOpen(true);
+    // setOpen(true);
   };
 
   const handleClose = () => {
@@ -172,7 +172,12 @@ const ContactInfo = () => {
               paddingBottom: "0px",
             }}
             secondaryAction={
-              <IconButton edge="start" aria-label="delete">
+              <IconButton edge="start" aria-label="delete" onClick={() => {
+                var link = document.createElement("a");
+                link.href = "mailto:bavlesamy@gmail.com";
+                link.click();
+              }
+              }>
                 <MailIcon
                   sx={{
                     fontSize: "30px",
@@ -196,7 +201,12 @@ const ContactInfo = () => {
               paddingBottom: "0px",
             }}
             secondaryAction={
-              <IconButton edge="start" aria-label="delete">
+              <IconButton edge="start" aria-label="delete" onClick={() => {
+                var link = document.createElement("a");
+                link.href = "https://www.linkedin.com/in/bavelytawfik/";
+                link.target = "_blank";
+                link.click();
+              }}>
                 <LinkedInIcon
                   sx={{
                     fontSize: "30px",
@@ -219,7 +229,13 @@ const ContactInfo = () => {
               paddingBottom: "0px",
             }}
             secondaryAction={
-              <IconButton edge="start" aria-label="delete">
+              <IconButton edge="start" aria-label="delete" 
+              onClick={() => {
+                var link = document.createElement("a");
+                link.href = "https://github.com/PavliTawfik";
+                link.target = "_blank";
+                link.click();
+              }}>
                 <GitHubIcon
                   sx={{
                     fontSize: "30px",
@@ -242,7 +258,13 @@ const ContactInfo = () => {
               paddingBottom: "0px",
             }}
             secondaryAction={
-              <IconButton edge="start" aria-label="delete">
+              <IconButton edge="start" aria-label="delete"
+              onClick={() => {
+                var link = document.createElement("a");
+                link.href = "https://github.com/bavely";
+                link.target = "_blank";
+                link.click();
+              }}>
                 <GitHubIcon
                   sx={{
                     fontSize: "30px",
@@ -266,7 +288,13 @@ const ContactInfo = () => {
               paddingBottom: "0px",
             }}
             secondaryAction={
-              <IconButton edge="start" aria-label="delete">
+              <IconButton edge="start" aria-label="delete"
+              onClick={() => {
+                var link = document.createElement("a");
+                link.href = "https://drive.google.com/file/d/1HHTI5_2tCvXXYNXCO_PhAqhv53nuuRb1/view?usp=drive_link";
+                link.target = "_blank";
+                link.click();
+              }}>
                 <InsertDriveFileIcon
                   sx={{
                     fontSize: "30px",
