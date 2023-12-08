@@ -9,7 +9,7 @@ const SibApiV3Sdk = require('sib-api-v3-sdk');
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 
 let apiKey = defaultClient.authentications['api-key'];
-apiKey.apiKey = env.parsed.BREVO_API_SMS;
+apiKey.apiKey = process.env.BREVO_API_SMS;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
@@ -32,8 +32,8 @@ var transport = nodemailer.createTransport({
     host: "smtp-relay.brevo.com",
     port: 587,
     auth: {
-      user: env.parsed.BREVO_API_NAME,
-      pass: env.parsed.BREVO_API_KEY
+      user: process.env.BREVO_API_NAME,
+      pass: process.env.BREVO_API_KEY
     }
   });
 app.post("/api/contactme", (req, res) => {
