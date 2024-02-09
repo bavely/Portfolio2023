@@ -1,9 +1,9 @@
 <h1 align="center">Hello👋, I'm Bavely!</h1>
 <h3 align="center">A passionate full stack web developer</h3>
 
-<p>🔭 I'm currently working on an <strong>HR-Portal</strong> personal project, building both backend and frontend
+<p>🔭 I'm currently working on an <strong>Messaging App</strong> personal project, building both backend and frontend
 </p>
-<p>🌱 I'm currently learning <strong>Data Structures</strong> and <strong>Algorithms
+<p>🌱 I'm currently learning <strong>AI and ML</strong> and <strong>Algorithms
 </strong></p>
 <p>📲 Talk to me about <strong>Coding</strong> and <strong>Fishing</strong> and we will be best friends
 </p>
