@@ -35,6 +35,18 @@ export const WorksObject =
             Text: "React messenger is a place holder name of a messaging application I am developing as a private project. It is still under planning and development. The messenger will allow users with the same interests to communicate , chat and create groups under different topics.",
             Tech: ["NodeJS","ExpressJS", "React Native", "MongoDB","Mongoose","Bootstrap", "Google APIs", "Google Maps API", "Mailgun", "Twilio", "Axios", "socket.io", "JWT"  ]
         }
+    },
+    {
+        id: 4,
+        name: "Tasty",
+        img: require("./images/Tasty1.png"),
+        gitHub: "https://github.com/bavely/tasty",
+        live: "https://tasty-phi.vercel.app",
+        about: {
+            Images:[ require("./images/Tasty1.png"), require("./images/tasty2.png"), require("./images/tasts3.png"), require("./images/tasty4.png")],
+            Text: "Tasty is a web application that allows users to search delicious recipes. It is a practicing application of Typescript I am developing as a private project.",
+            Tech: ["ReactJS", "Typescript", "CSS", "REST API"  ]
+        }
     }
     ]
     

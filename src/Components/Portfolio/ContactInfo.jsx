@@ -291,7 +291,7 @@ const ContactInfo = () => {
               <IconButton edge="start" aria-label="delete"
               onClick={() => {
                 var link = document.createElement("a");
-                link.href = "https://drive.google.com/file/d/1HHTI5_2tCvXXYNXCO_PhAqhv53nuuRb1/view?usp=drive_link";
+                link.href = "https://drive.google.com/file/d/1kTToG2Y7nyU7JedJbvl6ocoQfwIlSx3F/view?usp=sharing";
                 link.target = "_blank";
                 link.click();
               }}>

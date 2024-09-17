@@ -24,7 +24,7 @@ app.use(cors());
 //     auth: {
 //         // TODO: replace `user` and `pass` values from <https://forwardemail.net>
 //         user: 'basatwrx@gmail.com',
-//         pass: 'PW4all@Bb17168'
+//         pass: ''
 //       },
 //   });
 

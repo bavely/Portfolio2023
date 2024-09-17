@@ -92,7 +92,7 @@ const ContactMe = () => {
             <form className="my-form">
               <div className="formcontainer">
                 <span id="msg"></span>
-                <ul style={{ listStyle: "none" }}>
+                <ul style={{ listStyle: "none" , paddingLeft: "0"}}>
                   <li></li>
                   <li>
                     <input
