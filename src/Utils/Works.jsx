@@ -47,6 +47,19 @@ export const WorksObject =
             Text: "Tasty is a web application that allows users to search delicious recipes. It is a practicing application of Typescript I am developing as a private project.",
             Tech: ["ReactJS", "Typescript", "CSS", "REST API"  ]
         }
+    },
+    {
+        id: 5,
+        name: "TODO AI",
+        img: require("./images/todo.png"),
+        gitHub: "https://github.com/bavely/Smart_AI_ToDo-",
+        live: "https://smart-ai-to-do.vercel.app/",
+        about: {
+            Images:[require("./images/todo.png")],
+            Text: "TODO AI is a task managment web application that allows users to manage their tasks using AI chatbot. It is a practicing application of Typescript and NextJS I built as a private project to practice NextJS, Typescript and AI implementations.",
+            Tech: [ "Typescript", "ChatGPT API, CopilotKit", "NextJS", "MongoDB", "GraphQL" ,"CSS"  ]   
+
+    }
     }
     ]
     
