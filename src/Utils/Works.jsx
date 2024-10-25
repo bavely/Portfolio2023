@@ -11,6 +11,17 @@ export const WorksObject =
             Text: "CuroRx is a web application is a pharmacy, provider and patient point of communications serving the needs of patients and providers to help a pharmacy business operate more efficiently. It is currently I am part of the developing team in NextEHealth.",
             Tech: ["NodeJS","ExpressJS", "ReactJS", "MySQL",  "Firebase", "Azure Web Apps", "Bootstrap", "Material UI", "Google APIs", "Google Maps API", "Mailgun", "Twilio", "Axios", "socket.io", "JWT", "Azure Storage"  ]
         }
+    },{
+        id: 6,
+        name: "Movie Night",
+        img: require("./images/movie-night1.png"),
+        gitHub: "https://github.com/bavely/Movie-Night-AI",
+        live: "https://movie-night.pavli-tawfik.com/",
+        about:  {
+            Images:[require("./images/movie-night1.png"), require("./images/movie-night2.png"), require("./images/movie-night3.png"), require("./images/movie-night4.png"), require("./images/movie-night5.png"), require("./images/movie-night6.png"), require("./images/movie-night7.png"), require("./images/movie-night8.png")],
+            Text: "Movie Night is your go-to web app for finding the perfect flick! Whether you’re in the mood to search by keywords or browse by genre, we’ve got you covered. Not sure what to watch? Just ask our AI assistant for spot-on movie recommendations. Grab the popcorn and let the binge-watching begin!",
+            Tech: ["OpenAI", "TMDB API","Watchmode API" ,"Angular 18", "RxJS" ,"Tailwind", "CSS", "PrimeNg UISuite", "Ubuntu Linux VPS",  "Nginx web server" ]
+        }
     },
     {
         id: 2,
@@ -41,7 +52,7 @@ export const WorksObject =
         name: "Tasty",
         img: require("./images/Tasty1.png"),
         gitHub: "https://github.com/bavely/tasty",
-        live: "https://tasty-phi.vercel.app",
+        live: "https://tasty.pavli-tawfik.com",
         about: {
             Images:[ require("./images/Tasty1.png"), require("./images/tasty2.png"), require("./images/tasts3.png"), require("./images/tasty4.png")],
             Text: "Tasty is a web application that allows users to search delicious recipes. It is a practicing application of Typescript I am developing as a private project.",
@@ -61,5 +72,6 @@ export const WorksObject =
 
     }
     }
+
     ]
     
