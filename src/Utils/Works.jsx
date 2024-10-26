@@ -28,7 +28,7 @@ export const WorksObject =
         name: "Pawinpaw",
         img: require("./images/register.JPG"),
         gitHub: "https://github.com/khwilson27/pawinpaw",
-        live: "https://fierce-beyond-25845.herokuapp.com/",
+        live: "http://pawinpaw.pavli-tawfik.com/",
         about:  {
             Images:[require("./images/nearby.JPG"), require("./images/register.JPG"), require("./images/profile.JPG"), require("./images/nearby2.JPG"), require("./images/match.JPG")],
             Text: "Pawinpaw is a web application that allows users to search for and connect with other pet owners. It is a practicing application I am part of the developing team during UCI Bootcamp.",
@@ -70,8 +70,34 @@ export const WorksObject =
             Text: "TODO AI is a task managment web application that allows users to manage their tasks using AI chatbot. It is a practicing application of Typescript and NextJS I built as a private project to practice NextJS, Typescript and AI implementations.",
             Tech: [ "Typescript", "ChatGPT API, CopilotKit", "NextJS", "MongoDB", "GraphQL" ,"CSS"  ]   
 
-    }
-    }
+    },
 
+    },
+    {
+        id: 7, //id 6 is already taken above
+        name: "RIVER'S EDGE PHARMACY Website",
+        img: require("./images/re1.png"),
+        gitHub: "#",
+        live: "https://www.repharmacy.com/",
+        about: {
+            Images:[require("./images/re1.png"), require("./images/re2.png"), require("./images/re3.png"), require("./images/re4.png")],
+            Text: "RIVER'S EDGE PHARMACY is a website for RIVER'S EDGE PHARMACY. RIVER'S EDGE PHARMACY is specialty pharmacy located in Irvine, California. I was a part of the developing, hosting and maintaining team for this website.",
+            Tech: [ "Wordpress", "Elementor", "CSS", "HTML", "Javascript", "PHP", "yoast seo", "Google Analytics", "Azure Web Apps"  ]
+        }
+    },
+    {
+        id: 8,
+        name: "AMERICAN COURIER SERVICES Website",
+        img: require("./images/ac1.png"),
+        gitHub: "#",
+        live: "https://american-courier.com/",
+        about: {
+            Images:[require("./images/ac1.png"), require("./images/ac2.png"), require("./images/ac3.png"), require("./images/ac4.png")],
+            Text: "AMERICAN COURIER SERVICES is a courier services website located in Los Angeles, California. I was a part of the developing, hosting and maintaining team for this website.",
+            Tech: [ "Wordpress", "Elementor", "CSS", "HTML", "Javascript", "PHP", "yoast seo", "Google Analytics", "Digital Ocean VPS"  ]
+        }
+    }
+    
+    
     ]
     

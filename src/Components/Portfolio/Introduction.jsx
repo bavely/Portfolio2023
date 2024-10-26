@@ -11,7 +11,7 @@ const Introduction = () => {
       <div className="col-md-8 offset-md-2 ">
         <div className="row " >
           <div className="col-md-6  avatar">
-          <Avatar  src={require("../../Utils/images/1TE01341.jpg")}  sx={{ width: 250, height: 250 }}/>
+          <Avatar  src={require("../../Utils/images/1TE01341.jpg")}  sx={{ width: 250, height: 250 }} imgProps={{ loading: 'lazy' }}/>
           </div>
           <div className=" col-md-6 introduction-text ">
 

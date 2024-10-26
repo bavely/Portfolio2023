@@ -26,6 +26,8 @@ import Divider from "@mui/material/Divider";
 import { Pagination, Navigation } from "swiper/modules";
 import Modal from "@mui/material/Modal";
 import ImageViewer from "react-simple-image-viewer";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Works = () => {
   const [details, setDetails] = useState({});
   const [open, setOpen] = React.useState(false);
@@ -88,8 +90,21 @@ const Works = () => {
                       rowHeight={164}
                     >
                       {details.about.Images.map((item, index) => (
-                        <ImageListItem key={index}>
-                          <img
+                        <ImageListItem key={item.id}>
+                          <LazyLoadImage
+                            effect="blur"
+                             onClick={() => {
+                              openImageViewer(index);
+                            }}
+                            alt={item.split("/")[item.split("/").length - 1]}
+                            placeholderSrc={item}
+                            src={item} // use normal <img> attributes as props
+                            srcSet={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                            height={200}
+                            width={200}
+                            style={{ objectFit: "contain" , cursor: "pointer"}}
+                          />
+                          {/* <img
                             onClick={() => {
                               openImageViewer(index);
                             }}
@@ -97,7 +112,7 @@ const Works = () => {
                             src={item}
                             alt={item.split("/")[item.split("/").length - 1]}
                             loading="lazy"
-                          />
+                          /> */}
                         </ImageListItem>
                       ))}
                     </ImageList>
