@@ -96,6 +96,18 @@ export const WorksObject =
             Text: "AMERICAN COURIER SERVICES is a courier services website located in Los Angeles, California. I was a part of the developing, hosting and maintaining team for this website.",
             Tech: [ "Wordpress", "Elementor", "CSS", "HTML", "Javascript", "PHP", "yoast seo", "Google Analytics", "Digital Ocean VPS"  ]
         }
+    },
+    {
+        id: 9,
+        name:"WIZEAS Website",
+        img: require("./images/w.png"),
+        gitHub: "#",
+        live: "https://wizeas.com/",
+        about: {
+            Images:[require("./images/w.png"), require("./images/w2.png"), require("./images/w3.png"), require("./images/w4.png"), require("./images/w5.png"), require("./images/w6.png"), require("./images/w7.png"), require("./images/w8.png")],
+            Text: "WIZEAS is a website for WIZEAS. WIZEAS is a web development company located in Austin, Texas. I developed, hosted and maintained this website.",
+            Tech: [ "ReactJS", "Tailwind CSS", "Shadcn UI", "CSS", "HTML", "Javascript", "NodeJS", "ExpressJS"  ]
+        }
     }
     
     

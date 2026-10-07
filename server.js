@@ -17,16 +17,6 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(express.static("./build"));
 app.use(cors());
 
-// let transporter = nodemailer.createTransport({
-//     host: "smtp.gmail.com",
-//     port: 465,
-//     secure: true,
-//     auth: {
-//         // TODO: replace `user` and `pass` values from <https://forwardemail.net>
-//         user: 'basatwrx@gmail.com',
-//         pass: ''
-//       },
-//   });
 
 var transport = nodemailer.createTransport({
     host: "smtp-relay.brevo.com",
@@ -39,8 +29,8 @@ var transport = nodemailer.createTransport({
 app.post("/api/contactme", (req, res) => {
     console.log(req.body)
     transport.sendMail({
-        from: "bavelytawfik@gmail.com", // sender address
-        to: "bavelytawfik@gmail.com", // list of receivers
+        from: process.env.BREVO_API_NAME, // sender address
+        to: process.env.BREVO_API_NAME, // list of receivers
         subject: "New Portfolio Message", // Subject line
         text: req.body.email, // plain text body
         html: `<b>From: ${req.body.email} <br/><b>Name: ${req.body.name}</b><br/><b>Message: ${req.body.message}</b>`, // html body

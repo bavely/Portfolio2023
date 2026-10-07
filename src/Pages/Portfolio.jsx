@@ -15,7 +15,7 @@ function Portfolio() {
       <ContactInfo />
       <div className="footer row">
       <div className='text-center pt-3 pb-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Bavely Tawfik
+        © {new Date().getFullYear()} Bavely Tawfik
       </div>
       </div>
     </div>

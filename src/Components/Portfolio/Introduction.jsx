@@ -17,7 +17,7 @@ const Introduction = () => {
 
                 <p className="about-me-header">About Me</p>
                 <p  className="about-me-text">
-                    Welcome to my web development portfolio! I'm Bavely Tawfik, a<span className ="job-title"> full-stack web </span> with extensive experience in building innovative, efficient, and scalable applications. My expertise spans a wide range of technologies, including JavaScript, React, Node.js, and cloud platforms like Google Cloud and MS Azure. I have a proven track record of delivering robust solutions in both <span className ="job-title">front-end</span> and<span className ="job-title"> back-end</span> development, solving complex problems, and collaborating effectively with teams. Explore my projects and see how I can bring value to your next web development challenge.
+                Welcome to my web development portfolio! I'm Bavely Tawfik, a<span className ="job-title"> full-stack web developer</span> with a wealth of experience in building innovative, efficient, and scalable applications. My expertise includes technologies such as JavaScript, React, Node.js, and cloud platforms like Google Cloud and Microsoft Azure. Over the course of my career, I’ve delivered robust <span className ="job-title">  front-end </span>and <span className ="job-title">back-end </span>solutions, tackled complex technical challenges, and collaborated effectively with diverse teams. Explore my projects to see how I can contribute to your next web development endeavor.
                 </p>
 
           </div>
